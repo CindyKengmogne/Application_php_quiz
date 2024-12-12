@@ -102,6 +102,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 </label>
             </div>
             <div class="captcha">
+            <?php $captcha ?>
                 <img src="data:image/png;base64,<?php echo base64_encode($captcha['image']); ?>" alt="Captcha Image" class="captcha-image">
                 <label for="captcha">Vérification</label>
                 <input type="text" id="captcha" name="captcha" required placeholder="Entrez le captcha">

@@ -134,7 +134,7 @@ $quizzes = Quiz::getAll();
                         <td><?= htmlspecialchars($quiz['title']) ?></td>
                         <td><?= htmlspecialchars(substr($quiz['description'], 0, 50) . '...') ?></td>
                         <td>
-                            <a href="?edit<?= $quiz['id'] ?>">Modifier</a>
+                            <a href="addQuiz.php?edit=<?= $quiz['id'] ?>">Modifier</a>
                             <a href="?delete&id=<?= $quiz['id'] ?>" onclick="return confirm('Voulez-vous vraiment supprimer ce quiz ?')">Supprimer</a>
                         </td>
                     </tr>
