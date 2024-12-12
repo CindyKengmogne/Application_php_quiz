@@ -1,0 +1,106 @@
+/* Définir la couleur de fond générale */
+body {
+    background-color: #f9f9f9; /* Pâle et douce */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+h2 {
+    color: #4d4d4d;
+    margin-bottom: 20px;
+}
+.quiz-title {
+    font-size: 28px; /* Taille plus grande pour le titre */
+    font-weight: bold;
+    color: #ffcc00; /* Couleur jaune douce pour attirer l'attention */
+    margin-bottom: 20px; /* Espacement sous le titre */
+    text-transform: uppercase; /* Mettre le texte en majuscules */
+    letter-spacing: 2px; /* Espacement entre les lettres */
+}
+
+/* Style des champs de saisie */
+.input-box {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-box label {
+    display: block;
+    font-size: 14px;
+    color: #777;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.remember-me {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.captcha {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.captcha img {
+    display: block;
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffcc00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #ffb800;
+}
+
+/* Style du lien pour s'inscrire */
+.signup-link {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}

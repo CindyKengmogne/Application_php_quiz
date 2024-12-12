@@ -1,0 +1,155 @@
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+.dashboard-container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    background-color: #ffffff;
+    width: 250px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    color: #4d4d4d;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    color: #4d4d4d;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.sidebar ul li a:hover {
+    color: #ffcc00;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 30px;
+}
+
+.main-content h1 {
+    color: #4d4d4d;
+}
+
+.overview {
+    background-color: #ffcc00;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.recent-activities ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recent-activities ul li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.recent-activities ul li a {
+    color: #4d4d4d;
+    text-decoration: none;
+}
+
+.recent-activities ul li a:hover {
+    color: #ffcc00;
+}
+.user-list {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-list h2 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #333;
+}
+
+.user-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-list th, .user-list td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.user-list th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.user-list td {
+    background-color: #fff;
+}
+
+.user-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.user-list tr:hover {
+    background-color: #f2f2f2;
+}
+
+.actions {
+    margin-bottom: 20px;
+}
+
+.actions a {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.actions a:hover {
+    background-color: #3e8e41;
+}
+
+.filters {
+    margin-top: 20px;
+}
+
+.filters label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.filters select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
